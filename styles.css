@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    color: rgb(187, 131, 10);
+    font-size: 30px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.subtitulo {
+    text-align: center;
+
+}
+.paragrafo {
+    font-size: 30px;
+    text-align: justify;
+    text-indent: 90px; /*funciona apenas na primeira linha, um recull*/
+}
+.background-img {
+    height: 500px;
+    width: 100%;
+    background-color: #3f3b3b;
+    background-image: url('https://t3.ftcdn.net/jpg/05/85/86/44/360_F_585864419_kgIYUcDQ0yiLOCo1aRjeu7kRxndcoitz.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  
+}
